@@ -1,0 +1,10 @@
+module.exports = {
+  semi: false,
+  singleQuote: true,
+  useTabs: false,
+  tabWidth: 2,
+  bracketSpacing: true,
+  arrowParens: 'avoid',
+  trailingComma: 'none',
+  printWidth: 80
+}
