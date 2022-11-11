@@ -7,7 +7,7 @@ letter 'a', any character, letter 'b'
 const str = 'ahb acb aeb aeeb adcb axeb'
 console.log(str.match(/a.b/g))
 
-//Given the string '2 + 3 223 2223'. Write a regex that finds line 2 + 3 without capturing the rest
+// Given the string '2 + 3 223 2223'. Write a regex that finds line 2 + 3 without capturing the rest
 
 const string1 = '2 + 3 223 2223'
 const substr = string1.match(/\d \+ \d/)
